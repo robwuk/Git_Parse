@@ -1,0 +1,41 @@
+<!doctype HTML>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<html>
+<head>
+
+  <!-- meta tags needed to make mobile responsive -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- links to bootstrap and your css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Git_Parse.css">
+
+<script>
+
+ </script>
+  <title>Robert Worth - Markdown Previewer</title>
+</head>
+
+  <body>
+    <script type="text/javascript" src="marked.min.js"></script>
+    <script src="FCC_Test_Script.js"></script>
+
+    <div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
+    <div id="screen">
+      <div id="wrapper" class="container">
+        <div id="display__block" class="column">
+          <div id="title" class="col-md-12 title">GitHub Markdown Previewer</div>
+          <div class="col-md-2"></div>
+          <textarea id="editor" class="col-md-8" cols="50" rows="15" onkeyup="javascript:textUpdate()"></textarea>
+          <div class="col-md-2"></div>
+          <div id="direction" class="col-md-12">V</div>
+          <div id="preview" class="col-md-12"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="Git_Parse.js"></script>
+  </body>
+</html>

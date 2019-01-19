@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy');
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+}
+
+#preview{
+  border: solid 2px black;
+}
+
+#title, #direction {
+  font-family: "Roboto";
+  font-size: 200%;
+  font-weight: 400;
+  text-align: center;
+}
